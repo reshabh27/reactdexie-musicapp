@@ -110,7 +110,7 @@ const Main = () => {
 					<input type="file" id="cover" name="file" onChange={e => getFile(e.target.files)} />
 				</div>
 
-				<input type="submit" value="Submit" />
+				<input type="submit" value="Add" />
 			</form>
 
 			{postData}
